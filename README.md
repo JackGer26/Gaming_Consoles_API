@@ -4,8 +4,6 @@ My comprehensive REST API providing detailed information about gaming consoles s
 
 **Link to project:** https://github.com/JackGer26/Gaming_Consoles_API
 
-**Example URL:** https://gaming-console-api-db1859af4f61.herokuapp.com/api/nintendo switch
-
 ## How It's Made:
 
 **Tech used:** Node.js, Express.js, JavaScript, CORS
