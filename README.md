@@ -25,10 +25,10 @@ The console database spans four generations of gaming:
 
 ### Example Usage:
 ```
-GET http://localhost:8000/api/playstation 5
-GET http://localhost:8000/api/xbox series x
-GET http://localhost:8000/api/nintendo switch
-GET http://localhost:8000/api/steam deck
+GET https://gaming-console-api-db1859af4f61.herokuapp.com/api/playstation 5
+GET https://gaming-console-api-db1859af4f61.herokuapp.com/api/xbox series x
+GET https://gaming-console-api-db1859af4f61.herokuapp.com/api/nintendo switch
+GET https://gaming-console-api-db1859af4f61.herokuapp.com/api/steam deck
 ```
 
 ### Example Response:
