@@ -2,8 +2,6 @@
 
 My comprehensive REST API providing detailed information about gaming consoles spanning from 1990 to 2022.
 
-![Gaming Console API](https://via.placeholder.com/800x400/0066cc/ffffff?text=Gaming+Console+API)
-
 **Link to project:** https://github.com/JackGer26/Gaming_Consoles_API
 
 ## How It's Made:
