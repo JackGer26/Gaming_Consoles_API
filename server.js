@@ -178,7 +178,11 @@ app.get('/', (request, response) => {
 })
 
 app.get('/api/:name', (request, response) => {
-    const consoleName = request.params.name.toLowerCase()
+    // Decode URL encoding (converts %20 back to spaces)
+    const consoleName = decodeURIComponent(request.params.name.toLowerCase())
+    console.log('Requested console name:', consoleName)
+    console.log('Available consoles:', Object.keys(consoles))
+    
     if(consoles[consoleName]){
         response.json(consoles[consoleName])
     }else{
